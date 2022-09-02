@@ -1,0 +1,26 @@
+[
+  {
+    "name": ["rival_teams"],
+    "type": ["character"]
+  },
+  {
+    "name": ["match"],
+    "type": ["character"]
+  },
+  {
+    "name": ["Rivales"],
+    "type": ["double"]
+  },
+  {
+    "name": ["Morelia"],
+    "type": ["double"]
+  },
+  {
+    "name": ["scheme_rival"],
+    "type": ["character"]
+  },
+  {
+    "name": ["scheme_team"],
+    "type": ["character"]
+  }
+]
