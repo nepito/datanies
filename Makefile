@@ -33,8 +33,8 @@ format:
 setup: clean
 	R -e "devtools::document()" && \
     R CMD build . && \
-    R CMD check templater_0.1.0.tar.gz && \
-    R CMD INSTALL templater_0.1.0.tar.gz
+    R CMD check datanies_0.1.0.tar.gz && \
+    R CMD INSTALL datanies_0.1.0.tar.gz
 
 tests:
 	Rscript -e "devtools::test(stop_on_failure = TRUE)"
