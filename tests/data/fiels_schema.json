@@ -1,26 +1,32 @@
 [
   {
     "name": ["rival_teams"],
-    "type": ["character"]
+    "type": ["character"],
+    "standard_name": [""]
   },
   {
     "name": ["match"],
-    "type": ["character"]
+    "type": ["character"],
+    "standard_name": [""]
   },
   {
     "name": ["Rivales"],
-    "type": ["double"]
+    "type": ["double"],
+    "standard_name": [""]
   },
   {
     "name": ["Morelia"],
-    "type": ["double"]
+    "type": ["double"],
+    "standard_name": [""]
   },
   {
     "name": ["scheme_rival"],
-    "type": ["character"]
+    "type": ["character"],
+    "standard_name": [""]
   },
   {
     "name": ["scheme_team"],
-    "type": ["character"]
+    "type": ["character"],
+    "standard_name": [""]
   }
 ]
