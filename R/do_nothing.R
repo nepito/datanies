@@ -3,6 +3,10 @@ return_one <- function() {
 }
 
 infer_fields <- function(datos) {
-  fields <- jsonlite::read_json("/workdir/tests/data/fiels_schema.json")
+  nombres <- names(datos)
+  n_col <- ncol(datos)
+  tipos <- sapply(datos, typeof)
+  names(tipos) <- NULL
+  fields <- comprehenr::to_list(for (i in 1:n_col) list("name" = nombres[i], "type" = tipos[i]))
   return(fields)
 }
