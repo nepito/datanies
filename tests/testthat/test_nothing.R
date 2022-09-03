@@ -2,7 +2,7 @@ library(tidyverse)
 
 describe("Test all is ready", {
   it("Return one", {
-    datos <- read_csv("../data/outout_morelia.csv")
+    datos <- read_csv("../data/outout_morelia.csv", show_col_types = FALSE)
     expected <- jsonlite::read_json("../data/fiels_schema.json")
     obtained <- infer_fields(datos)
     expect_equal(expected, obtained)
