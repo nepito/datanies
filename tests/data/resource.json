@@ -1,0 +1,81 @@
+{
+  "path": [
+    "output_morelia.csv"
+  ],
+  "name": [
+    "output_morelia"
+  ],
+  "format": [
+    "csv"
+  ],
+  "schema": {
+    "fields": [
+      {
+        "name": [
+          "rival_teams"
+        ],
+        "type": [
+          "character"
+        ],
+        "standard_name": [
+          ""
+        ]
+      },
+      {
+        "name": [
+          "match"
+        ],
+        "type": [
+          "character"
+        ],
+        "standard_name": [
+          ""
+        ]
+      },
+      {
+        "name": [
+          "Rivales"
+        ],
+        "type": [
+          "double"
+        ],
+        "standard_name": [
+          ""
+        ]
+      },
+      {
+        "name": [
+          "Morelia"
+        ],
+        "type": [
+          "double"
+        ],
+        "standard_name": [
+          ""
+        ]
+      },
+      {
+        "name": [
+          "scheme_rival"
+        ],
+        "type": [
+          "character"
+        ],
+        "standard_name": [
+          ""
+        ]
+      },
+      {
+        "name": [
+          "scheme_team"
+        ],
+        "type": [
+          "character"
+        ],
+        "standard_name": [
+          ""
+        ]
+      }
+    ]
+  }
+}
